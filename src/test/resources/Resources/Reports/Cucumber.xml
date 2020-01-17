@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="95.276173">
+<testcase classname="Validate the  Guur99 Demo site" name=": Add a tariff plan to customers" time="25.084344">
+<system-out><![CDATA[Given user should launch the browser and URL Application....................passed
+Then user click on Add tariff plan to customer links........................passed
+When user enters "500","10","10","50","2","3" and "1".......................passed
+Then user click on submit button............................................passed
+And User verify sucessful message...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate the  Guur99 Demo site" name=": Add a tariff plan to customers 2" time="22.386274">
+<system-out><![CDATA[Given user should launch the browser and URL Application....................passed
+Then user click on Add tariff plan to customer links........................passed
+When user enters "1000","50","40","80","2","7" and "2"......................passed
+Then user click on submit button............................................passed
+And User verify sucessful message...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate the  Guur99 Demo site" name="Add a tariff plan to customer" time="23.456647">
+<system-out><![CDATA[Given user should launch the browser and URL Application....................passed
+When User click on Add tariff plan to customer..............................passed
+Then User provide a valid details...........................................passed
+Then User click submit button...............................................passed
+And User verify sucessful messages..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate the  Guur99 Demo site" name=": Add a customer" time="24.348908">
+<system-out><![CDATA[Given user should launch the browser and URL Application....................passed
+When User click on Add customer link........................................passed
+Then User select Beckground check...........................................passed
+Then User enters "sham","raj","sham@gmail.com","OMR Chennai" and "545265544" on text field box.passed
+Then User should click on submit button.....................................passed
+And User should verify sucessful message....................................passed
+]]></system-out>
+</testcase>
+</testsuite>
